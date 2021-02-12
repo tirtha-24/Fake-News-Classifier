@@ -24,5 +24,7 @@ Logistic regression gave best result. So, I hypertuned the regularization parame
 1. LSTM, nearly 97% accuracy.
 2. Bidirectional LSTM, nearly 99 % accuracy.
 
+Note: keras library is used for deep learning models.
+
 Bidirectional LSTM and logistic regression are the winner models in this case. But, sequence models like LSTM considers the sequence information and learns the order dependency in a sentence. Thus, considering the sequence information is a mandatory criteria. Therefore, bidirectional LSTM is considered as the final model for this project.
 
