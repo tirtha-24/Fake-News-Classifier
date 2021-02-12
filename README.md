@@ -17,6 +17,7 @@
 2. KNN
 3. Decision trees.
 4. Multinomial Naive Bayes.
+
 Logistic regression gave best result. So, I hypertuned the regularization parameter and trained the model with the best hyperparameter after cross-validation, which gave nearly 99% accuracy. TF-IDF weighting was used for calculating the feautures of the input document. Features were obtained by considering both unigrams and bigrams. Top 8000 features were taken based on term frequency.
 
 ### **Deep Learning Models**
